@@ -48,12 +48,14 @@ main {
   height: 200px;
   margin: 5px;
   overflow: hidden;
+  text-align: center;
 
   img {
     height: 200px;
+    width: 200px;
     display: block;
     object-fit: cover;
-    margin: 0;
+    object-position: center;
   }
 
   p {

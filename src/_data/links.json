@@ -1,99 +1,24 @@
 {
   "items": [
     {
-      "title": "hi",
+      "artist": "Chulmin",
       "category": "",
-      "imageUrl": "/assets/name.svg"
+      "imageUrl": "/images/test.jpg"
     },
     {
-      "title": "holo",
+      "artist": "Jeemin",
       "category": "",
-      "imageUrl": ""
+      "imageUrl": "/images/test.jpg"
     },
     {
-      "title": "hello",
+      "artist": "Omma",
       "category": "",
-      "imageUrl": ""
+      "imageUrl": "/images/test.jpg"
     },
     {
-      "title": "hey",
+      "artist": "Appa",
       "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hi",
-      "category": "",
-      "imageUrl": "/assets/name.svg"
-    },
-    {
-      "title": "holo",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hello",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hi",
-      "category": "",
-      "imageUrl": "/assets/name.svg"
-    },
-    {
-      "title": "holo",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hello",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hi",
-      "category": "",
-      "imageUrl": "/assets/name.svg"
-    },
-    {
-      "title": "holo",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hello",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hi",
-      "category": "",
-      "imageUrl": "/assets/name.svg"
-    },
-    {
-      "title": "holo",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hello",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hi",
-      "category": "",
-      "imageUrl": "/assets/name.svg"
-    },
-    {
-      "title": "holo",
-      "category": "",
-      "imageUrl": ""
-    },
-    {
-      "title": "hello",
-      "category": "",
-      "imageUrl": ""
+      "imageUrl": "/images/test.jpg"
     }
   ]
 }
