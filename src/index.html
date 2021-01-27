@@ -1,16 +1,12 @@
 ---
 layout: default.html
+pageTitle: All
+tags: nav
+order: 1
 ---
 
 <main>
   <ul class="container">
-    {% for item in links.items %}
-    <li class="card">
-      <div>
-        <p>{{ item.artist }}</p>
-        <img src="{{ item.imageUrl }}" alt="" />
-      </div>
-    </li>
-    {% endfor %}
+    {% for item in links.items %} {% include card.html %} {% endfor %}
   </ul>
 </main>
