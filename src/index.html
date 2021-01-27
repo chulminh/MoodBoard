@@ -1,47 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/css/styles.css" />
-  </head>
+---
+layout: default.html
+---
 
-  <body>
-    <header>
-      <h1>Influences & Inspirations</h1>
-
-      <nav>
-        <ul>
-          <li>
-            <a href=""> Placeholder </a>
-          </li>
-          <li>
-            <a href=""> Placeholder </a>
-          </li>
-          <li>
-            <a href=""> Placeholder </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <ul class="container">
-        {% for item in links.items %}
-        <li class="card">
-          <div>
-            <p>{{ item.artist }}</p>
-            <img src="{{ item.imageUrl }}" alt="" />
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
-    </main>
-  </body>
-</html>
+<main>
+  <ul class="container">
+    {% for item in links.items %}
+    <li class="card">
+      <div>
+        <p>{{ item.artist }}</p>
+        <img src="{{ item.imageUrl }}" alt="" />
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
