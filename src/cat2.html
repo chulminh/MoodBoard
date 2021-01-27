@@ -1,0 +1,12 @@
+---
+layout: default.html
+pageTitle: Category 2
+tags: nav
+order: 3
+---
+
+<main>
+  <ul class="container">
+    {% for item in links.items %} {% include card.html %} {% endfor %}
+  </ul>
+</main>
