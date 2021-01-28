@@ -2,32 +2,32 @@
   "items": [
     {
       "artist": "Kenneth Vanoverbeke, @u_wabaki",
-      "category": "example",
+      "category": "cat1",
       "imageUrl": "/images/u_wabaki_1.png"
     },
     {
       "artist": "Kenneth Vanoverbeke, @u_wabaki",
-      "category": "example",
+      "category": "cat1",
       "imageUrl": "/images/u_wabaki_2.png"
     },
     {
       "artist": "Kenneth Vanoverbeke, @u_wabaki",
-      "category": "example",
+      "category": "cat2",
       "imageUrl": "/images/u_wabaki_3.png"
     },
     {
       "artist": "Kenneth Vanoverbeke, @u_wabaki",
-      "category": "example",
+      "category": "cat2",
       "imageUrl": "/images/u_wabaki_4.png"
     },
     {
       "artist": "Kenneth Vanoverbeke, @u_wabaki",
-      "category": "3",
+      "category": "cat3",
       "imageUrl": "/images/u_wabaki_5.png"
     },
     {
       "artist": "Kenneth Vanoverbeke, @u_wabaki",
-      "category": "3",
+      "category": "cat3",
       "imageUrl": "/images/u_wabaki_6.png"
     },
     {

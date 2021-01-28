@@ -7,6 +7,7 @@ order: 1
 
 <main>
   <ul class="container">
-    {% for item in links.items %} {% include card.html %} {% endfor %}
+    {% assign alphabetOrder = links.items | sort:"imageUrl" %} {% for item in
+    links.items %} {% include card.html %} {% endfor %}
   </ul>
 </main>
