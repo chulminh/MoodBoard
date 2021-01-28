@@ -1,9 +1,9 @@
-<li class="card">
+<li class="card" onclick="panel(event)">
   <div>
     <p>
       {{ item.artist }} <br />
       {{ item.category }}
     </p>
-    <img src="{{ item.imageUrl }}" alt="" />
+    <img src="{{ item.imageUrl }}" alt="A piece created by {{ item.artist }}" />
   </div>
 </li>

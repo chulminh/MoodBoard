@@ -78,6 +78,7 @@ nav {
 
 main {
   margin-left: 200px;
+  margin-right: 0;
 }
 
 .container {
@@ -143,24 +144,25 @@ footer {
   border: 1px solid black;
 }
 
-.detail {
+#detail {
   display: none;
   flex-wrap: wrap;
   position: fixed;
-  width: 400px;
-  height: 100%;
+  width: 30%;
+  height: 90%;
   right: 0px;
-  border: 1px solid red;
   background-color: white;
   margin: 0;
 
   img {
     display: block;
-    width: 100%;
-    height: 70%;
+    width: 96%;
+    height: 80%;
+    object-fit: contain;
+    margin: 2%;
   }
 
-  div {
+  .info {
     display: block;
     width: 100%;
     text-align: center;
@@ -168,5 +170,14 @@ footer {
 
   p {
     margin: 5px;
+  }
+
+  #escapebtn {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    transform: rotate(-45deg);
   }
 }
