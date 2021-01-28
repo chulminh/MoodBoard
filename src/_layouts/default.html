@@ -13,7 +13,10 @@
   </head>
 
   <body>
-    {% include site-header.html %} {{ content | safe }} {% include
-    site-footer.html %}
+    <section class="wrapper">
+      {% include site-header.html %} {{ content | safe }} {% include detail.html
+      %}
+    </section>
+    {% include site-footer.html %}
   </body>
 </html>
