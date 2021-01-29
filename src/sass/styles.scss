@@ -8,20 +8,20 @@
 }
 
 header {
-  width: 200px;
-  height: 100%;
-  position: fixed;
+  align-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
+  height: 100%;
   justify-content: center;
+  position: fixed;
+  width: 200px;
 
   h1 {
     font-size: 24px;
-    text-align: center;
     font-style: italic;
     font-weight: 400;
     margin: 10px;
+    text-align: center;
 
     a {
       color: black;
@@ -29,19 +29,19 @@ header {
   }
 
   h2 {
-    font-weight: 400;
     border-bottom: 1px solid black;
     font-size: 20px;
+    font-weight: 400;
   }
 
   p {
-    box-sizing: border-box;
-    width: 150px;
-    height: 150px;
-    font-weight: 300;
-    font-size: 16px;
-    padding: 3px;
     border: 1px solid black;
+    box-sizing: border-box;
+    height: 150px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 3px;
+    width: 150px;
   }
 
   a {
@@ -58,10 +58,10 @@ nav {
   }
 
   li {
+    font-size: 16px;
+    font-weight: 300;
     margin: 5px;
     padding: 3px;
-    font-weight: 300;
-    font-size: 16px;
   }
 
   a {
@@ -71,8 +71,8 @@ nav {
 
 .logo {
   img {
-    width: 60px;
     height: 60px;
+    width: 60px;
   }
 }
 
@@ -89,34 +89,35 @@ main {
 }
 
 .card {
-  position: relative;
-  list-style: none;
-  width: 150px;
   height: 150px;
+  list-style: none;
   margin: 5px;
   overflow: hidden;
+  position: relative;
   text-align: center;
+  width: 150px;
 
   img {
-    height: 150px;
-    width: 150px;
     display: block;
+    height: 150px;
     object-fit: cover;
     object-position: center;
+    width: 150px;
   }
 
   p {
-    margin: 5px;
-    position: absolute;
-    display: none;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 3px;
+    display: none;
     font-size: 12px;
+    margin: 5px;
+    padding: 3px;
+    position: absolute;
   }
 }
 
 .card:hover {
   p {
+    border: 1px solid black;
     display: block;
   }
 }
@@ -127,16 +128,16 @@ footer {
   margin: 1% 5% 1% 1%;
 
   ul {
-    width: 60%;
     display: flex;
     justify-content: space-between;
     padding: 0;
+    width: 60%;
   }
   li {
-    list-style: none;
-    margin: 5px;
     font-style: italic;
     font-weight: 300;
+    list-style: none;
+    margin: 5px;
   }
 }
 
@@ -145,37 +146,43 @@ footer {
 }
 
 #detail {
+  background-color: white;
+  border-left: 1px solid black;
   display: block;
   flex-wrap: wrap;
-  position: fixed;
-  width: 0;
   height: 90%;
+  margin: 1% 0;
+  position: fixed;
   right: 0px;
-  background-color: white;
-  margin: 0;
+  width: 0;
 
   img {
     display: block;
-    width: 96%;
     height: 80%;
+    margin: 5%;
     object-fit: contain;
-    margin: 2%;
+    object-position: top;
+    width: 90%;
   }
 
   .info {
     display: block;
-    width: 100%;
     text-align: center;
+    width: 100%;
   }
 
   p {
-    margin: 5px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 200px;
   }
 
   #escapebtn {
-    width: 20px;
-    height: 20px;
-    margin: 15px;
     border: 1px solid black;
+    height: 20px;
+    margin: 15px 15px 15px 5%;
+    width: 20px;
   }
 }
