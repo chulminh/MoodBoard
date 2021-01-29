@@ -1,0 +1,35 @@
+#detail {
+  background-color: white;
+  border-left: 1px solid black;
+  display: block;
+  flex-wrap: wrap;
+  height: 90%;
+  margin: 1% 0;
+  position: fixed;
+  right: 0px;
+  width: 0;
+
+  img {
+    display: block;
+    height: 77%;
+    margin: 5%;
+    object-fit: contain;
+    object-position: top;
+    width: 90%;
+  }
+
+  p {
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 200px;
+  }
+
+  #escapebtn {
+    border: 1px solid black;
+    height: 20px;
+    margin: 15px 15px 15px 5%;
+    width: 20px;
+  }
+}

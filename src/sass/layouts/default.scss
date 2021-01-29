@@ -1,0 +1,20 @@
+* {
+  font-family: "Work Sans";
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+main {
+  margin-left: 200px;
+  margin-right: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
