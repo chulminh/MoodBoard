@@ -6,6 +6,9 @@
   position: relative;
   text-align: center;
   width: 150px;
+  animation-name: cardOpacity;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
 
   img {
     display: block;
@@ -29,5 +32,14 @@
   p {
     border: 1px solid black;
     display: block;
+  }
+}
+
+@keyframes cardOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
