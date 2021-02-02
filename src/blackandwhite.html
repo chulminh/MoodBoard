@@ -1,0 +1,13 @@
+---
+layout: default.html
+pageTitle: Black & White
+tags: nav
+order: 2
+---
+
+<main>
+  <ul class="container">
+    {% assign display = links.items | where:"category", "Black & White" %} {%
+    for item in display %} {% include card.html %} {% endfor %}
+  </ul>
+</main>

@@ -13,6 +13,8 @@ header {
     font-weight: 400;
     margin: 10px;
     text-align: center;
+    border-bottom: 1px solid black;
+    width: 150px;
 
     a {
       color: black;
@@ -44,5 +46,6 @@ header {
   img {
     height: 60px;
     width: 60px;
+    margin: 10px;
   }
 }

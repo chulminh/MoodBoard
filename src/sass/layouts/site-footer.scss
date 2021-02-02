@@ -1,7 +1,8 @@
 footer {
   display: flex;
   justify-content: flex-end;
-  margin: 1% 5% 1% 1%;
+  height: 70px;
+  margin-right: 50px;
 
   ul {
     display: flex;
@@ -14,5 +15,6 @@ footer {
     font-weight: 300;
     list-style: none;
     margin: 5px;
+    align-self: center;
   }
 }

@@ -1,0 +1,13 @@
+---
+layout: default.html
+pageTitle: My Eyes Burn
+tags: nav
+order: 3
+---
+
+<main>
+  <ul class="container">
+    {% assign display = links.items | where:"category", "My Eyes Burn" %} {% for
+    item in display %} {% include card.html %} {% endfor %}
+  </ul>
+</main>
