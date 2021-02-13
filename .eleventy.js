@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       layouts: "_layouts",
       input: "src",
-      output: "dist",
+      output: "docs",
     },
   };
 };
