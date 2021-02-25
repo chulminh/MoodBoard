@@ -1,0 +1,13 @@
+---
+layout: default.html
+pageTitle: Category 3
+tags: nav
+order: 4
+---
+
+<main>
+  <ul class="container">
+    {% assign display = links.items | where:"category", "cat3" %} {% for item in
+    display %} {% include card.html %} {% endfor %}
+  </ul>
+</main>

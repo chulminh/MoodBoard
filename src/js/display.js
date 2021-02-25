@@ -2,9 +2,9 @@ var detail = document.getElementById("detail");
 var container = document.querySelector("main");
 
 function panel(event) {
-  detail.style.width = "30%";
+  detail.style.width = "26%";
 
-  container.style.marginRight = "30%";
+  container.style.marginRight = "26%";
 
   var picture = event.target.src;
   var info = event.target.previousElementSibling.innerText;
