@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Library</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/images/name.svg" />
+  </head>
+
+  <body>
+    <section class="wrapper">
+      <header>
+  <h1>
+    <a href="/MoodBoard/index.html"> Influences & Inspirations</a>
+  </h1>
+
+  <nav>
+    <h2>
+      Categories
+    </h2>
+  <ul>
+      
+      
+    <li >
+      <a href="//">~ All ~</a>
+    </li>
+    
+    <li  aria-current="page" >
+      <a href="//cat1/">Category 1</a>
+    </li>
+    
+    <li >
+      <a href="//cat2/">Category 2</a>
+    </li>
+    
+    <li >
+      <a href="//cat3/">Category 3</a>
+    </li>
+    
+  </ul>
+</nav>
+
+
+  <p>
+    An accumulation of influences and inspirations across multiple genres
+    ranging from paintings to furniture.
+  </p>
+
+  <div class="logo">
+    <img src="/MoodBoard/images/name.svg" alt="" />
+  </div>
+</header>
+ 
+<main>
+  <ul class="container">
+      <li class="card">
+  <div>
+    <p>
+      Kenneth Vanoverbeke, @u_wabaki <br />
+      cat1
+    </p>
+    <img
+      src="/MoodBoard/images/u_wabaki_1.png"
+      onclick="panel(event)"
+      alt="A piece created by Kenneth Vanoverbeke, @u_wabaki"
+    />
+  </div>
+</li>
+  <li class="card">
+  <div>
+    <p>
+      Kenneth Vanoverbeke, @u_wabaki <br />
+      cat1
+    </p>
+    <img
+      src="/MoodBoard/images/u_wabaki_2.png"
+      onclick="panel(event)"
+      alt="A piece created by Kenneth Vanoverbeke, @u_wabaki"
+    />
+  </div>
+</li>
+ 
+  </ul>
+</main>
+ <section id="detail">
+  <img
+    id="escapebtn"
+    onclick="exbutton()"
+    src="/MoodBoard/assets/exbutton.svg"
+  />
+  <img id="detailImage" src="" alt="" />
+  <p id="info">Artist</p>
+</section>
+<script src="/MoodBoard/js/display.js"></script>
+
+    </section>
+    <footer>
+  <ul>
+    <li>Chulmin Han</li>
+    <li>Jan 2021</li>
+    <li>Made using 11ty</li>
+  </ul>
+</footer>
+
+  </body>
+</html>
